@@ -5,17 +5,12 @@ import '@vue/runtime-core'
 
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
-    ElCol: typeof import('element-plus/es')['ElCol']
     ElIcon: typeof import('element-plus/es')['ElIcon']
     ElMenu: typeof import('element-plus/es')['ElMenu']
     ElMenuItem: typeof import('element-plus/es')['ElMenuItem']
-    ElMenuItemGroup: typeof import('element-plus/es')['ElMenuItemGroup']
-    ElRow: typeof import('element-plus/es')['ElRow']
     ElSubMenu: typeof import('element-plus/es')['ElSubMenu']
     HeaderNav: typeof import('./src/components/HeaderNav.vue')['default']
-    Nav: typeof import('./src/components/Nav.vue')['default']
     SideBar: typeof import('./src/components/SideBar.vue')['default']
-    SiderBar: typeof import('./src/components/SiderBar.vue')['default']
   }
 }
 
